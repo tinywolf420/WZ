@@ -1,0 +1,6517 @@
+
+
+[ RemoteFunction ] :
+  Name     : WhisperChat
+  Parent   : ExperienceChat
+  Path     : RobloxReplicatedStorage.ExperienceChat.WhisperChat
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : _linkErrorGuiSignal
+  Parent   : ReplicatedStorage
+  Path     : ReplicatedStorage._linkErrorGuiSignal
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : RemoteTween
+  Parent   : Tween
+  Path     : ReplicatedStorage.Util.Tween.RemoteTween
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetDistributedGameTime
+  Parent   : Util
+  Path     : ReplicatedStorage.Util.Util.GetDistributedGameTime
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : SystemMessage
+  Parent   : Actions
+  Path     : ReplicatedStorage.Client.Actions.SystemMessage
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetEquipmentList
+  Parent   : ModelProvider
+  Path     : ReplicatedStorage.Shared.ModelProvider.GetEquipmentList
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetModel
+  Parent   : ModelProvider
+  Path     : ReplicatedStorage.Shared.ModelProvider.GetModel
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : ModelReceived
+  Parent   : ModelProvider
+  Path     : ReplicatedStorage.Shared.ModelProvider.ModelReceived
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetEquipmentInfo
+  Parent   : ModelProvider
+  Path     : ReplicatedStorage.Shared.ModelProvider.GetEquipmentInfo
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : InstanceAdded
+  Parent   : Health
+  Path     : ReplicatedStorage.Shared.Health.InstanceAdded
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetRealDPS
+  Parent   : Health
+  Path     : ReplicatedStorage.Shared.Health.GetRealDPS
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : Reset
+  Parent   : Health
+  Path     : ReplicatedStorage.Shared.Health.Reset
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Event
+  Parent   : Health
+  Path     : ReplicatedStorage.Shared.Health.Event
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SoundFromServer
+  Parent   : SFX
+  Path     : ReplicatedStorage.Shared.SFX.SoundFromServer
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OptInPrompted
+  Parent   : RobloxNotifications
+  Path     : ReplicatedStorage.Shared.RobloxNotifications.OptInPrompted
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Award
+  Parent   : Horseshoes
+  Path     : ReplicatedStorage.Shared.Horseshoes.Award
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : StatusRemoved
+  Parent   : Status
+  Path     : ReplicatedStorage.Shared.Status.StatusRemoved
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : StatusChanged
+  Parent   : Status
+  Path     : ReplicatedStorage.Shared.Status.StatusChanged
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : StatusAdded
+  Parent   : Status
+  Path     : ReplicatedStorage.Shared.Status.StatusAdded
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SpawnFunction
+  Parent   : WorldEvents
+  Path     : ReplicatedStorage.Shared.WorldEvents.SpawnFunction
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : IntermissionStarted
+  Parent   : WorldEvents
+  Path     : ReplicatedStorage.Shared.WorldEvents.IntermissionStarted
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : EndFunction
+  Parent   : WorldEvents
+  Path     : ReplicatedStorage.Shared.WorldEvents.EndFunction
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : TeleportToEvent
+  Parent   : WorldEvents
+  Path     : ReplicatedStorage.Shared.WorldEvents.TeleportToEvent
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : EventStarted
+  Parent   : WorldEvents
+  Path     : ReplicatedStorage.Shared.WorldEvents.EventStarted
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : CrystalsChanged
+  Parent   : Crystals
+  Path     : ReplicatedStorage.Shared.Crystals.CrystalsChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetPurchaseTiers
+  Parent   : Crystals
+  Path     : ReplicatedStorage.Shared.Crystals.GetPurchaseTiers
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : PurchaseWithCheckout
+  Parent   : Crystals
+  Path     : ReplicatedStorage.Shared.Crystals.PurchaseWithCheckout
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetCrystals
+  Parent   : Crystals
+  Path     : ReplicatedStorage.Shared.Crystals.GetCrystals
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : PurchaseInventory
+  Parent   : Crystals
+  Path     : ReplicatedStorage.Shared.Crystals.PurchaseInventory
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetDailyCosmetics
+  Parent   : Crystals
+  Path     : ReplicatedStorage.Shared.Crystals.GetDailyCosmetics
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : PurchasedUnredeemedClass
+  Parent   : Crystals
+  Path     : ReplicatedStorage.Shared.Crystals.PurchasedUnredeemedClass
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : IsSaleActive
+  Parent   : Crystals
+  Path     : ReplicatedStorage.Shared.Crystals.IsSaleActive
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : UpdateCrystalGiftingState
+  Parent   : Crystals
+  Path     : ReplicatedStorage.Shared.Crystals.UpdateCrystalGiftingState
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : FirstPurchaseBonusAvailable
+  Parent   : Crystals
+  Path     : ReplicatedStorage.Shared.Crystals.FirstPurchaseBonusAvailable
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : UpdateCrystalState
+  Parent   : Crystals
+  Path     : ReplicatedStorage.Shared.Crystals.UpdateCrystalState
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetCrystalGiftingState
+  Parent   : Crystals
+  Path     : ReplicatedStorage.Shared.Crystals.GetCrystalGiftingState
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetDailyFurniture
+  Parent   : Crystals
+  Path     : ReplicatedStorage.Shared.Crystals.GetDailyFurniture
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : SeenSplash
+  Parent   : StarterBundleDiscount
+  Path     : ReplicatedStorage.Shared.StarterBundleDiscount.SeenSplash
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetShowHealthbar
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.SetShowHealthbar
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetSFXVolume
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.SetSFXVolume
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetPortalInform
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.SetPortalInform
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetHideChat
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.SetHideChat
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetUIScale
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.SetUIScale
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetAllowMissionInvite
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.SetAllowMissionInvite
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetAllowJoinParty
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.SetAllowJoinParty
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetCharacterRenderCount
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.SetCharacterRenderCount
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DisableQuestTracker
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.DisableQuestTracker
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OffhandPerksActive
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.OffhandPerksActive
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : AdvancedDebugActive
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.AdvancedDebugActive
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ShowOthersDamage
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.ShowOthersDamage
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetAutoNav
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.SetAutoNav
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetMusicVolume
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.SetMusicVolume
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ToggleDuelInvites
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.ToggleDuelInvites
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetCameraShakeEnabled
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.SetCameraShakeEnabled
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ToggleDoubleTapDash
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.ToggleDoubleTapDash
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ToggleAutoAim
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.ToggleAutoAim
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetSkipCutscenes
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.SetSkipCutscenes
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetShowPetName
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.SetShowPetName
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetOtherAttackIndicators
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.SetOtherAttackIndicators
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetReduceOtherPlayerEffects
+  Parent   : Settings
+  Path     : ReplicatedStorage.Shared.Settings.SetReduceOtherPlayerEffects
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : FinalizePetFusion
+  Parent   : PetFusion
+  Path     : ReplicatedStorage.Shared.PetFusion.FinalizePetFusion
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : RerollPetFusion
+  Parent   : PetFusion
+  Path     : ReplicatedStorage.Shared.PetFusion.RerollPetFusion
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : LockInPetChoice
+  Parent   : PetFusion
+  Path     : ReplicatedStorage.Shared.PetFusion.LockInPetChoice
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetLockedPets
+  Parent   : PetFusion
+  Path     : ReplicatedStorage.Shared.PetFusion.GetLockedPets
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : AnimReplicate
+  Parent   : NPC
+  Path     : ReplicatedStorage.Shared.NPC.AnimReplicate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Chat
+  Parent   : NPC
+  Path     : ReplicatedStorage.Shared.NPC.Chat
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : TeleportCharacter
+  Parent   : Teleport
+  Path     : ReplicatedStorage.Shared.Teleport.TeleportCharacter
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : WaystoneUnlock
+  Parent   : Teleport
+  Path     : ReplicatedStorage.Shared.Teleport.WaystoneUnlock
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : TeleportRequest
+  Parent   : Teleport
+  Path     : ReplicatedStorage.Shared.Teleport.TeleportRequest
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : WaystoneRequest
+  Parent   : Teleport
+  Path     : ReplicatedStorage.Shared.Teleport.WaystoneRequest
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : TeleportFriendRequest
+  Parent   : Teleport
+  Path     : ReplicatedStorage.Shared.Teleport.TeleportFriendRequest
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : TeleportFailed
+  Parent   : Teleport
+  Path     : ReplicatedStorage.Shared.Teleport.TeleportFailed
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : StartRaid
+  Parent   : Teleport
+  Path     : ReplicatedStorage.Shared.Teleport.StartRaid
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SplashEvent
+  Parent   : Teleport
+  Path     : ReplicatedStorage.Shared.Teleport.SplashEvent
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : StartPlaySolo
+  Parent   : Teleport
+  Path     : ReplicatedStorage.Shared.Teleport.StartPlaySolo
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : TeleportToHub
+  Parent   : Teleport
+  Path     : ReplicatedStorage.Shared.Teleport.TeleportToHub
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : WaystoneTeleport
+  Parent   : Teleport
+  Path     : ReplicatedStorage.Shared.Teleport.WaystoneTeleport
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : RequestTeleportFromPart
+  Parent   : Teleport
+  Path     : ReplicatedStorage.Shared.Teleport.RequestTeleportFromPart
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : JoinGame
+  Parent   : Teleport
+  Path     : ReplicatedStorage.Shared.Teleport.JoinGame
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : TeleportGuildRequest
+  Parent   : Teleport
+  Path     : ReplicatedStorage.Shared.Teleport.TeleportGuildRequest
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : TeleportOutsideRequest
+  Parent   : Teleport
+  Path     : ReplicatedStorage.Shared.Teleport.TeleportOutsideRequest
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : TeleportToDifferentServer
+  Parent   : Teleport
+  Path     : ReplicatedStorage.Shared.Teleport.TeleportToDifferentServer
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : InterruptAnimations
+  Parent   : Teleport
+  Path     : ReplicatedStorage.Shared.Teleport.InterruptAnimations
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : FireChat
+  Parent   : Chat
+  Path     : ReplicatedStorage.Shared.Chat.FireChat
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : GuildTextChannelCreated
+  Parent   : Chat
+  Path     : ReplicatedStorage.Shared.Chat.GuildTextChannelCreated
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : TextDisplayMessage
+  Parent   : Chat
+  Path     : ReplicatedStorage.Shared.Chat.TextDisplayMessage
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ChatDisplayMessage
+  Parent   : Chat
+  Path     : ReplicatedStorage.Shared.Chat.ChatDisplayMessage
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : CreateTextChannel
+  Parent   : Chat
+  Path     : ReplicatedStorage.Shared.Chat.CreateTextChannel
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : UnequipItem
+  Parent   : Inventory
+  Path     : ReplicatedStorage.Shared.Inventory.UnequipItem
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DeleteItem
+  Parent   : Inventory
+  Path     : ReplicatedStorage.Shared.Inventory.DeleteItem
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : RegisterHotbar
+  Parent   : Inventory
+  Path     : ReplicatedStorage.Shared.Inventory.RegisterHotbar
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : RemoveHotbarItem
+  Parent   : Inventory
+  Path     : ReplicatedStorage.Shared.Inventory.RemoveHotbarItem
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ItemAwarded
+  Parent   : Inventory
+  Path     : ReplicatedStorage.Shared.Inventory.ItemAwarded
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetLockItemState
+  Parent   : Inventory
+  Path     : ReplicatedStorage.Shared.Inventory.SetLockItemState
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DyeItem
+  Parent   : Inventory
+  Path     : ReplicatedStorage.Shared.Inventory.DyeItem
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : InventoryChanged
+  Parent   : Inventory
+  Path     : ReplicatedStorage.Shared.Inventory.InventoryChanged
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : EquipItem
+  Parent   : Inventory
+  Path     : ReplicatedStorage.Shared.Inventory.EquipItem
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : AdminSpawnItem
+  Parent   : Inventory
+  Path     : ReplicatedStorage.Shared.Inventory.AdminSpawnItem
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : FullscreenItemAwarded
+  Parent   : Inventory
+  Path     : ReplicatedStorage.Shared.Inventory.FullscreenItemAwarded
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : GiftWrapItem
+  Parent   : Inventory
+  Path     : ReplicatedStorage.Shared.Inventory.GiftWrapItem
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : UnwrapItem
+  Parent   : Inventory
+  Path     : ReplicatedStorage.Shared.Inventory.UnwrapItem
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetStats
+  Parent   : PlayerStats
+  Path     : ReplicatedStorage.Shared.PlayerStats.GetStats
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetMobs
+  Parent   : Mobs
+  Path     : ReplicatedStorage.Shared.Mobs.GetMobs
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : RotationUpdate
+  Parent   : Mobs
+  Path     : ReplicatedStorage.Shared.Mobs.RotationUpdate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : MobSound
+  Parent   : Mobs
+  Path     : ReplicatedStorage.Shared.Mobs.MobSound
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : NotEnoughSignal
+  Parent   : Mobs
+  Path     : ReplicatedStorage.Shared.Mobs.NotEnoughSignal
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : MobCreated
+  Parent   : Mobs
+  Path     : ReplicatedStorage.Shared.Mobs.MobCreated
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : InvincibilityUpdated
+  Parent   : Mobs
+  Path     : ReplicatedStorage.Shared.Mobs.InvincibilityUpdated
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : MobDied
+  Parent   : Mobs
+  Path     : ReplicatedStorage.Shared.Mobs.MobDied
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoSpikes
+  Parent   : SandTreeEnt
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.SandTreeEnt.DoSpikes
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnSpecialHit
+  Parent   : GigaSentry
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.GigaSentry.OnSpecialHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnRage
+  Parent   : GigaSentry
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.GigaSentry.OnRage
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : GigaSentry
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.GigaSentry.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : BeamHit
+  Parent   : RuinedScorpion
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.RuinedScorpion.BeamHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : RuinedScorpion
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.RuinedScorpion.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : PoisonFlower
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.PoisonFlower.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : SentryStone
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.SentryStone.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnChargeShot
+  Parent   : Taurha
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.Taurha.OnChargeShot
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnSpawnMinion
+  Parent   : Taurha
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.Taurha.OnSpawnMinion
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoSpikes
+  Parent   : Taurha
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.Taurha.DoSpikes
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnMeteors
+  Parent   : Taurha
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.Taurha.OnMeteors
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnLightningHit
+  Parent   : Kirin
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.Kirin.OnLightningHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnSpikeHit
+  Parent   : Hades
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.Hades.OnSpikeHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DealCabbageDamage
+  Parent   : CrystalCrab
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.CrystalCrab.DealCabbageDamage
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PlateUpdate
+  Parent   : BOSSHogRider
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSHogRider.PlateUpdate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnRage
+  Parent   : MinotaurGiant
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.MinotaurGiant.OnRage
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : QuillStrike
+  Parent   : BOSSMamaQuillodile
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSMamaQuillodile.QuillStrike
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : ElectricFlower
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.ElectricFlower.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : IceFlower
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.IceFlower.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : WhirlpoolHit
+  Parent   : RuinGuardianWorldEvent
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.RuinGuardianWorldEvent.WhirlpoolHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnRage
+  Parent   : RuinGuardianWorldEvent
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.RuinGuardianWorldEvent.OnRage
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnScratched
+  Parent   : BOSSRuinousPoisonDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSRuinousPoisonDragon.OnScratched
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnWhipped
+  Parent   : BOSSRuinousPoisonDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSRuinousPoisonDragon.OnWhipped
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : IceBeam
+  Parent   : BOSSRuinousPoisonDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSRuinousPoisonDragon.IceBeam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnMeteors
+  Parent   : BOSSRuinousPoisonDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSRuinousPoisonDragon.OnMeteors
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : WhirlpoolHit
+  Parent   : RuinGuardian
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.RuinGuardian.WhirlpoolHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnRage
+  Parent   : RuinGuardian
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.RuinGuardian.OnRage
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnScratched
+  Parent   : BOSSWinterfallIceDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSWinterfallIceDragon.OnScratched
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnWhipped
+  Parent   : BOSSWinterfallIceDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSWinterfallIceDragon.OnWhipped
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : IceBeam
+  Parent   : BOSSWinterfallIceDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSWinterfallIceDragon.IceBeam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : BeamHit
+  Parent   : CerberusMinion
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.CerberusMinion.BeamHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : BeamHit
+  Parent   : ScorpionEvent
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.ScorpionEvent.BeamHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : ScorpionEvent
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.ScorpionEvent.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : BeamHit
+  Parent   : BOSSCerberus
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSCerberus.BeamHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : MeteorAttack
+  Parent   : BOSSCerberus
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSCerberus.MeteorAttack
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : DesertFlower
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.DesertFlower.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnRage
+  Parent   : FireCastleCommander
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.FireCastleCommander.OnRage
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : BOSSKandrix
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSKandrix.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ShieldPhase
+  Parent   : BOSSKandrix
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSKandrix.ShieldPhase
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnLaserHit
+  Parent   : BOSSFireAnubis
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFireAnubis.OnLaserHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnBeyblade
+  Parent   : BOSSFireAnubis
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFireAnubis.OnBeyblade
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : DragonProtector
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.DragonProtector.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : FireFlower
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.FireFlower.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : BeamHit
+  Parent   : BOSSSandScorpion
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSSandScorpion.BeamHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : BOSSSandScorpion
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSSandScorpion.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : WhirlpoolHit
+  Parent   : RustyCommander
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.RustyCommander.WhirlpoolHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnRage
+  Parent   : RustyCommander
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.RustyCommander.OnRage
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : AetherFlower
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.AetherFlower.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoSpikes
+  Parent   : AetherFlower
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.AetherFlower.DoSpikes
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnScratched
+  Parent   : VaneAetherDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.VaneAetherDragon.OnScratched
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnWhipped
+  Parent   : VaneAetherDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.VaneAetherDragon.OnWhipped
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : IceBeam
+  Parent   : VaneAetherDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.VaneAetherDragon.IceBeam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnMeteors
+  Parent   : VaneAetherDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.VaneAetherDragon.OnMeteors
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoFearBall
+  Parent   : BOSSTreeEnt
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSTreeEnt.DoFearBall
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnSpecialHit
+  Parent   : MagmaGigaBlob
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.MagmaGigaBlob.OnSpecialHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnRage
+  Parent   : MagmaGigaBlob
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.MagmaGigaBlob.OnRage
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : InvincibilityChanged
+  Parent   : EVENTBOSSDavyJones
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSDavyJones.InvincibilityChanged
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnThrow
+  Parent   : EVENTBOSSDavyJones
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSDavyJones.OnThrow
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnScratched
+  Parent   : BOSSDarkriseDarkDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSDarkriseDarkDragon.OnScratched
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnWhipped
+  Parent   : BOSSDarkriseDarkDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSDarkriseDarkDragon.OnWhipped
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : IceBeam
+  Parent   : BOSSDarkriseDarkDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSDarkriseDarkDragon.IceBeam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Landing
+  Parent   : BOSSDarkriseDarkDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSDarkriseDarkDragon.Landing
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Lightning
+  Parent   : BOSSDarkriseDarkDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSDarkriseDarkDragon.Lightning
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DownwardIceFire
+  Parent   : BOSSDarkriseDarkDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSDarkriseDarkDragon.DownwardIceFire
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SpawnPillars
+  Parent   : BOSSDarkriseDarkDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSDarkriseDarkDragon.SpawnPillars
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PillarsDestroyed
+  Parent   : BOSSDarkriseDarkDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSDarkriseDarkDragon.PillarsDestroyed
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DealCabbageDamage
+  Parent   : BOSSCrabbage
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSCrabbage.DealCabbageDamage
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnMeteors
+  Parent   : CorruptedGreaterTree
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.CorruptedGreaterTree.OnMeteors
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoSpikes
+  Parent   : StoneTreeEnt
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.StoneTreeEnt.DoSpikes
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoBoulders
+  Parent   : StoneTreeEnt
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.StoneTreeEnt.DoBoulders
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnMeteors
+  Parent   : BlossomTree
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BlossomTree.OnMeteors
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoSpikes
+  Parent   : BOSSFireTreeEnt
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFireTreeEnt.DoSpikes
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : WhirlpoolHit
+  Parent   : AetherKing
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.AetherKing.WhirlpoolHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnRage
+  Parent   : AetherKing
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.AetherKing.OnRage
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : WhirlpoolHit
+  Parent   : Nautilus
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.Nautilus.WhirlpoolHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : QuillStrike
+  Parent   : LavaShark
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.LavaShark.QuillStrike
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : WhirlpoolHit
+  Parent   : LavaShark
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.LavaShark.WhirlpoolHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHandCannon
+  Parent   : PirateCrab
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.PirateCrab.OnHandCannon
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnBigCannon
+  Parent   : PirateCrab
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.PirateCrab.OnBigCannon
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnBubbleHit
+  Parent   : Siren
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.Siren.OnBubbleHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnTridentStrike
+  Parent   : Siren
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.Siren.OnTridentStrike
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnMegaWhirlpoolHit
+  Parent   : Siren
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.Siren.OnMegaWhirlpoolHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : QuillStrike
+  Parent   : MamaMegalodile
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.MamaMegalodile.QuillStrike
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : WhirlpoolHit
+  Parent   : MamaMegalodile
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.MamaMegalodile.WhirlpoolHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : BeamHit
+  Parent   : ScorpionBlue
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.ScorpionBlue.BeamHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : ScorpionBlue
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.ScorpionBlue.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnLaserHit
+  Parent   : BOSSAnubis
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSAnubis.OnLaserHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Hit
+  Parent   : BOSSKrakenArm
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSKrakenArm.Hit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnFireHit
+  Parent   : ForestMoose
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.ForestMoose.OnFireHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnLaserHit
+  Parent   : AetherLord
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.AetherLord.OnLaserHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnBeyblade
+  Parent   : AetherLord
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.AetherLord.OnBeyblade
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoSpikes
+  Parent   : AetherLord
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.AetherLord.DoSpikes
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnDarkOrb
+  Parent   : BOSSFallenKing
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFallenKing.OnDarkOrb
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnSpawnMinion
+  Parent   : BOSSFallenKing
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFallenKing.OnSpawnMinion
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoSpikes
+  Parent   : BOSSFallenKing
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFallenKing.DoSpikes
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnFlamingSkull
+  Parent   : BOSSFallenKing
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFallenKing.OnFlamingSkull
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Difficulty
+  Parent   : BOSSFallenKing
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFallenKing.Difficulty
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : LifeDrain
+  Parent   : BOSSFallenKing
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFallenKing.LifeDrain
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : TridentFall
+  Parent   : BOSSFallenKing
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFallenKing.TridentFall
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : BigPoisonFlower
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BigPoisonFlower.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnSpecialHit
+  Parent   : BigPoisonFlower
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BigPoisonFlower.OnSpecialHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnSpikeHit
+  Parent   : HadesMiniboss
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.HadesMiniboss.OnSpikeHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : BeamHit
+  Parent   : HadesCerberus
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.HadesCerberus.BeamHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : MeteorAttack
+  Parent   : HadesCerberus
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.HadesCerberus.MeteorAttack
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnScratched
+  Parent   : BabyWinterfall
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BabyWinterfall.OnScratched
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnWhipped
+  Parent   : BabyWinterfall
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BabyWinterfall.OnWhipped
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : IceBeam
+  Parent   : BabyWinterfall
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BabyWinterfall.IceBeam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnMeteors
+  Parent   : BabyWinterfall
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BabyWinterfall.OnMeteors
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnSpikeHit
+  Parent   : EVENTBOSSCupid
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSCupid.OnSpikeHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnShockballHit
+  Parent   : EVENTBOSSCupid
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSCupid.OnShockballHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoBeam
+  Parent   : EVENTBOSSCupid
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSCupid.DoBeam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoThunderstorm
+  Parent   : EVENTBOSSCupid
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSCupid.DoThunderstorm
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoLightningstorm
+  Parent   : EVENTBOSSCupid
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSCupid.DoLightningstorm
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoHeartBeats
+  Parent   : EVENTBOSSCupid
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSCupid.DoHeartBeats
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnLoveCircleHit
+  Parent   : EVENTBOSSCupid
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSCupid.OnLoveCircleHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnScratched
+  Parent   : BOSSIgnisFireDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSIgnisFireDragon.OnScratched
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnWhipped
+  Parent   : BOSSIgnisFireDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSIgnisFireDragon.OnWhipped
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : IceBeam
+  Parent   : BOSSIgnisFireDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSIgnisFireDragon.IceBeam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnMeteors
+  Parent   : BOSSIgnisFireDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSIgnisFireDragon.OnMeteors
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : GlobalDebuff
+  Parent   : MinotaurDungeonBoss
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.MinotaurDungeonBoss.GlobalDebuff
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoThunderstorm
+  Parent   : MinotaurDungeonBoss
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.MinotaurDungeonBoss.DoThunderstorm
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnMeteors
+  Parent   : BigBlossomTree
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BigBlossomTree.OnMeteors
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnMeteors
+  Parent   : ForestStump
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.ForestStump.OnMeteors
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnSpecialHit
+  Parent   : Gargantigator
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.Gargantigator.OnSpecialHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : Sentry
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.Sentry.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : HandTower
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.HandTower.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : IceBeam
+  Parent   : HandTower
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.HandTower.IceBeam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : BlueGoblinSlingshot
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BlueGoblinSlingshot.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : GoblinSlingshot
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.GoblinSlingshot.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : RedGoblinSlingshot
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.RedGoblinSlingshot.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnCrystalHit
+  Parent   : CrystalGolemPurple
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.CrystalGolemPurple.OnCrystalHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnCrystalHit
+  Parent   : CrystalGolemPink
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.CrystalGolemPink.OnCrystalHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnCrystalHit
+  Parent   : CrystalGolemBlue
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.CrystalGolemBlue.OnCrystalHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : MiniBossCrystalWeaver
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.MiniBossCrystalWeaver.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : BOSSCrystalWeaverPink
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSCrystalWeaverPink.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : BOSSCrystalWeaverPurple
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSCrystalWeaverPurple.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : BOSSCrystalGolem
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSCrystalGolem.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : BOSSCrystalWeaverBlue
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSCrystalWeaverBlue.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : CrystalEnforcer
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.CrystalEnforcer.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : CrystalArcher
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.CrystalArcher.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : BOSSCrystalEnforcer
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSCrystalEnforcer.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnThrow
+  Parent   : BOSSEvilSanta
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSEvilSanta.OnThrow
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : IceBeam
+  Parent   : BOSSEvilSanta
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSEvilSanta.IceBeam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnBlizzardFall
+  Parent   : BOSSEvilSanta
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSEvilSanta.OnBlizzardFall
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : MegaIceWall
+  Parent   : BOSSEvilSanta
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSEvilSanta.MegaIceWall
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnMeteors
+  Parent   : BOSSEvilSanta
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSEvilSanta.OnMeteors
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : UpdateEnragedState
+  Parent   : BOSSEvilSanta
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSEvilSanta.UpdateEnragedState
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Difficulty
+  Parent   : BOSSEvilSanta
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSEvilSanta.Difficulty
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnLaser
+  Parent   : BOSSEvilSanta
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSEvilSanta.OnLaser
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnCureFountain
+  Parent   : FallenKingMinion
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.FallenKingMinion.OnCureFountain
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnScratched
+  Parent   : EVENTBOSSVane
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSVane.OnScratched
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnWhipped
+  Parent   : EVENTBOSSVane
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSVane.OnWhipped
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Difficulty
+  Parent   : EVENTBOSSVane
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSVane.Difficulty
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnMeteors
+  Parent   : EVENTBOSSVane
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSVane.OnMeteors
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnMeteorSummons
+  Parent   : EVENTBOSSVane
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSVane.OnMeteorSummons
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnSummonBabies
+  Parent   : EVENTBOSSVane
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSVane.OnSummonBabies
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : IceBeam
+  Parent   : EVENTBOSSVane
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSVane.IceBeam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : RotatingFireStart
+  Parent   : EVENTBOSSVane
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSVane.RotatingFireStart
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnBuffSpawn
+  Parent   : EVENTBOSSVane
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSVane.OnBuffSpawn
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnScratched
+  Parent   : MiniVane
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.MiniVane.OnScratched
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnScratched
+  Parent   : BabyIgnis
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BabyIgnis.OnScratched
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnWhipped
+  Parent   : BabyIgnis
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BabyIgnis.OnWhipped
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : IceBeam
+  Parent   : BabyIgnis
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BabyIgnis.IceBeam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnMeteors
+  Parent   : BabyIgnis
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BabyIgnis.OnMeteors
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnScratched
+  Parent   : RedDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.RedDragon.OnScratched
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnScratched
+  Parent   : GreenDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.GreenDragon.OnScratched
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnScratched
+  Parent   : BlueDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BlueDragon.OnScratched
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnDarkOrb
+  Parent   : EVENTBOSSKraken
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSKraken.OnDarkOrb
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnMegaWhirlpoolHit
+  Parent   : EVENTBOSSKraken
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSKraken.OnMegaWhirlpoolHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Hit
+  Parent   : EVENTBOSSKrakenArm
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSKrakenArm.Hit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : InvincibilityChanged
+  Parent   : DavyJones
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.DavyJones.InvincibilityChanged
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnThrow
+  Parent   : DavyJones
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.DavyJones.OnThrow
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Hit
+  Parent   : BOSSUndeadKrakenArm
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSUndeadKrakenArm.Hit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnScratched
+  Parent   : EVENTBOSSIgnisFireDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSIgnisFireDragon.OnScratched
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnWhipped
+  Parent   : EVENTBOSSIgnisFireDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSIgnisFireDragon.OnWhipped
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : IceBeam
+  Parent   : EVENTBOSSIgnisFireDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSIgnisFireDragon.IceBeam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnMeteors
+  Parent   : EVENTBOSSIgnisFireDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSIgnisFireDragon.OnMeteors
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnDarkOrb
+  Parent   : BOSSKrakenMain
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSKrakenMain.OnDarkOrb
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnSpikeHit
+  Parent   : BOSSZeus
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSZeus.OnSpikeHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnShockballHit
+  Parent   : BOSSZeus
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSZeus.OnShockballHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoBeam
+  Parent   : BOSSZeus
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSZeus.DoBeam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoThunderstorm
+  Parent   : BOSSZeus
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSZeus.DoThunderstorm
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoLightningstorm
+  Parent   : BOSSZeus
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSZeus.DoLightningstorm
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : EVENTBOSSZeroGuardian
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSZeroGuardian.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnSlamDown
+  Parent   : EVENTBOSSZeroGuardian
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSZeroGuardian.OnSlamDown
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnScratched
+  Parent   : EVENTBOSSAnimaSoulDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSAnimaSoulDragon.OnScratched
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnWhipped
+  Parent   : EVENTBOSSAnimaSoulDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSAnimaSoulDragon.OnWhipped
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : IceBeam
+  Parent   : EVENTBOSSAnimaSoulDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSAnimaSoulDragon.IceBeam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnMeteors
+  Parent   : EVENTBOSSAnimaSoulDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSAnimaSoulDragon.OnMeteors
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : TractorBeamStart
+  Parent   : AlienUFO
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.AlienUFO.TractorBeamStart
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : TractorBeamEnd
+  Parent   : AlienUFO
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.AlienUFO.TractorBeamEnd
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnPlayerAbducted
+  Parent   : AlienUFO
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.AlienUFO.OnPlayerAbducted
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : TractorBeamStart
+  Parent   : AlienMothership
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.AlienMothership.TractorBeamStart
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : TractorBeamEnd
+  Parent   : AlienMothership
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.AlienMothership.TractorBeamEnd
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnPlayerAbducted
+  Parent   : AlienMothership
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.AlienMothership.OnPlayerAbducted
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnSpecialHit
+  Parent   : AlienBlob
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.AlienBlob.OnSpecialHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnRage
+  Parent   : AlienBlob
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.AlienBlob.OnRage
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : AlienBlob
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.AlienBlob.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : IceBeam
+  Parent   : MiniDarkrise
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.MiniDarkrise.IceBeam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnMeteors
+  Parent   : MiniDarkrise
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.MiniDarkrise.OnMeteors
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnScratched
+  Parent   : MiniDarkrise
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.MiniDarkrise.OnScratched
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnWhipped
+  Parent   : MiniDarkrise
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.MiniDarkrise.OnWhipped
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : WhirlpoolHit
+  Parent   : BOSSDJFunk
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSDJFunk.WhirlpoolHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnDarkOrb
+  Parent   : BOSSFallenQueen
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFallenQueen.OnDarkOrb
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnSpawnMinion
+  Parent   : BOSSFallenQueen
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFallenQueen.OnSpawnMinion
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoSpikes
+  Parent   : BOSSFallenQueen
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFallenQueen.DoSpikes
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnFlamingSkull
+  Parent   : BOSSFallenQueen
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFallenQueen.OnFlamingSkull
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Difficulty
+  Parent   : BOSSFallenQueen
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFallenQueen.Difficulty
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : LifeDrain
+  Parent   : BOSSFallenQueen
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFallenQueen.LifeDrain
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnSummonPrince
+  Parent   : BOSSFallenQueen
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFallenQueen.OnSummonPrince
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ClockDestroyed
+  Parent   : BOSSFallenQueen
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFallenQueen.ClockDestroyed
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnMinionSpawned
+  Parent   : BOSSFallenQueen
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFallenQueen.OnMinionSpawned
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SpawnClock
+  Parent   : BOSSFallenQueen
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFallenQueen.SpawnClock
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ClockDarkness
+  Parent   : BOSSFallenQueen
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFallenQueen.ClockDarkness
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnCureFountain
+  Parent   : FallenQueenGuard
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.FallenQueenGuard.OnCureFountain
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoSpikes
+  Parent   : BOSSFallenPrince
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSFallenPrince.DoSpikes
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnScratched
+  Parent   : EVENTBOSSKensaiDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSKensaiDragon.OnScratched
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnWhipped
+  Parent   : EVENTBOSSKensaiDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSKensaiDragon.OnWhipped
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : IceBeam
+  Parent   : EVENTBOSSKensaiDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSKensaiDragon.IceBeam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnMeteors
+  Parent   : EVENTBOSSKensaiDragon
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSKensaiDragon.OnMeteors
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : IceBeam
+  Parent   : BOSSSuperJeff
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.BOSSSuperJeff.IceBeam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnSpikeHit
+  Parent   : EVENTBOSSCupidZeus
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSCupidZeus.OnSpikeHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnShockballHit
+  Parent   : EVENTBOSSCupidZeus
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSCupidZeus.OnShockballHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoBeam
+  Parent   : EVENTBOSSCupidZeus
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSCupidZeus.DoBeam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoThunderstorm
+  Parent   : EVENTBOSSCupidZeus
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSCupidZeus.DoThunderstorm
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoLightningstorm
+  Parent   : EVENTBOSSCupidZeus
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSCupidZeus.DoLightningstorm
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoHeartBeats
+  Parent   : EVENTBOSSCupidZeus
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSCupidZeus.DoHeartBeats
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnLoveCircleHit
+  Parent   : EVENTBOSSCupidZeus
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSCupidZeus.OnLoveCircleHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoBrokenHeart
+  Parent   : EVENTBOSSCupidZeus
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSCupidZeus.DoBrokenHeart
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ButtonSmash
+  Parent   : EVENTBOSSCupidZeus
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSCupidZeus.ButtonSmash
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnSpikeHit
+  Parent   : EVENTBOSSEasterBunny
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSEasterBunny.OnSpikeHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnShockballHit
+  Parent   : EVENTBOSSEasterBunny
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSEasterBunny.OnShockballHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoBeam
+  Parent   : EVENTBOSSEasterBunny
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSEasterBunny.DoBeam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoThunderstorm
+  Parent   : EVENTBOSSEasterBunny
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSEasterBunny.DoThunderstorm
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoLightningstorm
+  Parent   : EVENTBOSSEasterBunny
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSEasterBunny.DoLightningstorm
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoHeartBeats
+  Parent   : EVENTBOSSEasterBunny
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSEasterBunny.DoHeartBeats
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnLoveCircleHit
+  Parent   : EVENTBOSSEasterBunny
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.EVENTBOSSEasterBunny.OnLoveCircleHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnSpecialHit
+  Parent   : TheTerror
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.TheTerror.OnSpecialHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnRage
+  Parent   : TheTerror
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.TheTerror.OnRage
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : TheTerror
+  Path     : ReplicatedStorage.Shared.Mobs.Mobs.TheTerror.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SpawnChest
+  Parent   : Chests
+  Path     : ReplicatedStorage.Shared.Chests.SpawnChest
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OpenChest
+  Parent   : Chests
+  Path     : ReplicatedStorage.Shared.Chests.OpenChest
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : CheckCondition
+  Parent   : Chests
+  Path     : ReplicatedStorage.Shared.Chests.CheckCondition
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : ChestOpened
+  Parent   : Chests
+  Path     : ReplicatedStorage.Shared.Chests.ChestOpened
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ChestsWiped
+  Parent   : Chests
+  Path     : ReplicatedStorage.Shared.Chests.ChestsWiped
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Use
+  Parent   : ItemAbilities
+  Path     : ReplicatedStorage.Shared.ItemAbilities.Use
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : Buy
+  Parent   : Shop
+  Path     : ReplicatedStorage.Shared.Shop.Buy
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : ShopUpdated
+  Parent   : Shop
+  Path     : ReplicatedStorage.Shared.Shop.ShopUpdated
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : AddToStore
+  Parent   : Shop
+  Path     : ReplicatedStorage.Shared.Shop.AddToStore
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : RemoveFromStore
+  Parent   : Shop
+  Path     : ReplicatedStorage.Shared.Shop.RemoveFromStore
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ClaimShop
+  Parent   : Shop
+  Path     : ReplicatedStorage.Shared.Shop.ClaimShop
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : SetShopTitle
+  Parent   : Shop
+  Path     : ReplicatedStorage.Shared.Shop.SetShopTitle
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : StopShop
+  Parent   : Shop
+  Path     : ReplicatedStorage.Shared.Shop.StopShop
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : BuyLocal
+  Parent   : Shop
+  Path     : ReplicatedStorage.Shared.Shop.BuyLocal
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : PurchasedFromShop
+  Parent   : Shop
+  Path     : ReplicatedStorage.Shared.Shop.PurchasedFromShop
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PurchaseEventTokenTier
+  Parent   : Shop
+  Path     : ReplicatedStorage.Shared.Shop.PurchaseEventTokenTier
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : FailedAddToShop
+  Parent   : Shop
+  Path     : ReplicatedStorage.Shared.Shop.FailedAddToShop
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetFriends
+  Parent   : Friends
+  Path     : ReplicatedStorage.Shared.Friends.GetFriends
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : IsFriendsWith
+  Parent   : Friends
+  Path     : ReplicatedStorage.Shared.Friends.IsFriendsWith
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : UpdateFriends
+  Parent   : Friends
+  Path     : ReplicatedStorage.Shared.Friends.UpdateFriends
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : CompletedSignal
+  Parent   : Objectives
+  Path     : ReplicatedStorage.Shared.Objectives.CompletedSignal
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Invite
+  Parent   : Party
+  Path     : ReplicatedStorage.Shared.Party.Invite
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : AcceptedInvite
+  Parent   : Party
+  Path     : ReplicatedStorage.Shared.Party.AcceptedInvite
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PartyChanged
+  Parent   : Party
+  Path     : ReplicatedStorage.Shared.Party.PartyChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetPartyData
+  Parent   : Party
+  Path     : ReplicatedStorage.Shared.Party.GetPartyData
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : PromoteToLeader
+  Parent   : Party
+  Path     : ReplicatedStorage.Shared.Party.PromoteToLeader
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : KickPlayer
+  Parent   : Party
+  Path     : ReplicatedStorage.Shared.Party.KickPlayer
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetPlayersNotInParty
+  Parent   : Party
+  Path     : ReplicatedStorage.Shared.Party.GetPlayersNotInParty
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : SetMatchmaking
+  Parent   : Party
+  Path     : ReplicatedStorage.Shared.Party.SetMatchmaking
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetRaidDifficulty
+  Parent   : Party
+  Path     : ReplicatedStorage.Shared.Party.SetRaidDifficulty
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : CreateParty
+  Parent   : Party
+  Path     : ReplicatedStorage.Shared.Party.CreateParty
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetRaidHardcore
+  Parent   : Party
+  Path     : ReplicatedStorage.Shared.Party.SetRaidHardcore
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetDungeonCountdown
+  Parent   : Party
+  Path     : ReplicatedStorage.Shared.Party.SetDungeonCountdown
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : TogglePartyRequests
+  Parent   : Party
+  Path     : ReplicatedStorage.Shared.Party.TogglePartyRequests
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetRaidID
+  Parent   : Party
+  Path     : ReplicatedStorage.Shared.Party.SetRaidID
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : JoinParty
+  Parent   : Party
+  Path     : ReplicatedStorage.Shared.Party.JoinParty
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PartyJoinable
+  Parent   : Party
+  Path     : ReplicatedStorage.Shared.Party.PartyJoinable
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : AnyPartyChanged
+  Parent   : Party
+  Path     : ReplicatedStorage.Shared.Party.AnyPartyChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : LeaveParty
+  Parent   : Party
+  Path     : ReplicatedStorage.Shared.Party.LeaveParty
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetMissionPrize
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.GetMissionPrize
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : RaidComplete
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.RaidComplete
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OutOfLives
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.OutOfLives
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : NotifyReadyToLeave
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.NotifyReadyToLeave
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetDifficulty
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.GetDifficulty
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : PlayerRewarded
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.PlayerRewarded
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetCurrentLives
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.GetCurrentLives
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : PlayerObjectiveMessage
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.PlayerObjectiveMessage
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : MissionInit
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.MissionInit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : MissionStart
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.MissionStart
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : MissionFinished
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.MissionFinished
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : LivesChanged
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.LivesChanged
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : LeaveChoice
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.LeaveChoice
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : LeaveCountdown
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.LeaveCountdown
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetupProp
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.SetupProp
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : QueuedForTower
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.QueuedForTower
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : RequestQueue
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.RequestQueue
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : LeaveQueue
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.LeaveQueue
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : MissionRequest
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.MissionRequest
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : MissionPerkObtained
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.MissionPerkObtained
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : RequestRevive
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.RequestRevive
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoCutscene
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.DoCutscene
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DungeonUnlocked
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.DungeonUnlocked
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DailyDungeonUpdated
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.DailyDungeonUpdated
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetCurrentDailyDungeon
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.GetCurrentDailyDungeon
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : SkippedCutscene
+  Parent   : Missions
+  Path     : ReplicatedStorage.Shared.Missions.SkippedCutscene
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ServerUpdated
+  Parent   : ServerStatus
+  Path     : ReplicatedStorage.Shared.ServerStatus.ServerUpdated
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetMemoryCache
+  Parent   : ServerStatus
+  Path     : ReplicatedStorage.Shared.ServerStatus.GetMemoryCache
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : RemoteFunction
+  Parent   : openinventory
+  Path     : ReplicatedStorage.Shared.Admin.Commands.openinventory.RemoteFunction
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : DoCommand
+  Parent   : Admin
+  Path     : ReplicatedStorage.Shared.Admin.DoCommand
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoMission
+  Parent   : Admin
+  Path     : ReplicatedStorage.Shared.Admin.DoMission
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : DataInspect
+  Parent   : Admin
+  Path     : ReplicatedStorage.Shared.Admin.DataInspect
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : ExecuteCommand
+  Parent   : Admin
+  Path     : ReplicatedStorage.Shared.Admin.ExecuteCommand
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Command
+  Parent   : Admin
+  Path     : ReplicatedStorage.Shared.Admin.Command
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetProgress
+  Parent   : Tutorial
+  Path     : ReplicatedStorage.Shared.Tutorial.SetProgress
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : FireDailyChanged
+  Parent   : Recycler
+  Path     : ReplicatedStorage.Shared.Recycler.FireDailyChanged
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DailyItemChanged
+  Parent   : Recycler
+  Path     : ReplicatedStorage.Shared.Recycler.DailyItemChanged
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Recycle
+  Parent   : Recycler
+  Path     : ReplicatedStorage.Shared.Recycler.Recycle
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetRequiredPoints
+  Parent   : Recycler
+  Path     : ReplicatedStorage.Shared.Recycler.GetRequiredPoints
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : Claim
+  Parent   : Recycler
+  Path     : ReplicatedStorage.Shared.Recycler.Claim
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : BuyPoints
+  Parent   : Recycler
+  Path     : ReplicatedStorage.Shared.Recycler.BuyPoints
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ApplyImpulse
+  Parent   : Geysers
+  Path     : ReplicatedStorage.Shared.Geysers.ApplyImpulse
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Upgrade
+  Parent   : ItemUpgrade
+  Path     : ReplicatedStorage.Shared.ItemUpgrade.Upgrade
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Deconstruct
+  Parent   : ItemUpgrade
+  Path     : ReplicatedStorage.Shared.ItemUpgrade.Deconstruct
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Empower
+  Parent   : ItemUpgrade
+  Path     : ReplicatedStorage.Shared.ItemUpgrade.Empower
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Transmog
+  Parent   : ItemUpgrade
+  Path     : ReplicatedStorage.Shared.ItemUpgrade.Transmog
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetShowHealthbar
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.SetShowHealthbar
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetSFXVolume
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.SetSFXVolume
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetPortalInform
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.SetPortalInform
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetHideChat
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.SetHideChat
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetUIScale
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.SetUIScale
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetAllowMissionInvite
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.SetAllowMissionInvite
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetAllowJoinParty
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.SetAllowJoinParty
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetCharacterRenderCount
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.SetCharacterRenderCount
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DisableQuestTracker
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.DisableQuestTracker
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OffhandPerksActive
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.OffhandPerksActive
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : AdvancedDebugActive
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.AdvancedDebugActive
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ShowOthersDamage
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.ShowOthersDamage
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetAutoNav
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.SetAutoNav
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetMusicVolume
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.SetMusicVolume
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ToggleDuelInvites
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.ToggleDuelInvites
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetCameraShakeEnabled
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.SetCameraShakeEnabled
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ToggleDoubleTapDash
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.ToggleDoubleTapDash
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ToggleAutoAim
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.ToggleAutoAim
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetSkipCutscenes
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.SetSkipCutscenes
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetShowPetName
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.SetShowPetName
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetOtherAttackIndicators
+  Parent   : InviteFriends
+  Path     : ReplicatedStorage.Shared.InviteFriends.SetOtherAttackIndicators
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Sheathed
+  Parent   : Equipment
+  Path     : ReplicatedStorage.Shared.Equipment.Sheathed
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : CoinEvent
+  Parent   : Drops
+  Path     : ReplicatedStorage.Shared.Drops.CoinEvent
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : SellItems
+  Parent   : Drops
+  Path     : ReplicatedStorage.Shared.Drops.SellItems
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : CleanupID
+  Parent   : Drops
+  Path     : ReplicatedStorage.Shared.Drops.CleanupID
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : NamePet
+  Parent   : Pets
+  Path     : ReplicatedStorage.Shared.Pets.NamePet
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetFilteredName
+  Parent   : Pets
+  Path     : ReplicatedStorage.Shared.Pets.GetFilteredName
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : PetEvolved
+  Parent   : Pets
+  Path     : ReplicatedStorage.Shared.Pets.PetEvolved
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetPetPosition
+  Parent   : Pets
+  Path     : ReplicatedStorage.Shared.Pets.SetPetPosition
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : EvolvePet
+  Parent   : Pets
+  Path     : ReplicatedStorage.Shared.Pets.EvolvePet
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : IncubatePet
+  Parent   : Pets
+  Path     : ReplicatedStorage.Shared.Pets.IncubatePet
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : BuyEgg
+  Parent   : Pets
+  Path     : ReplicatedStorage.Shared.Pets.BuyEgg
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : RemoveFromIncubator
+  Parent   : Pets
+  Path     : ReplicatedStorage.Shared.Pets.RemoveFromIncubator
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PurchaseIncubatorSlot
+  Parent   : Pets
+  Path     : ReplicatedStorage.Shared.Pets.PurchaseIncubatorSlot
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : HasOfflinePass
+  Parent   : Pets
+  Path     : ReplicatedStorage.Shared.Pets.HasOfflinePass
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : PetLeveledUp
+  Parent   : Pets
+  Path     : ReplicatedStorage.Shared.Pets.PetLeveledUp
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : ConsumePetFood
+  Parent   : Pets
+  Path     : ReplicatedStorage.Shared.Pets.ConsumePetFood
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : Hatch
+  Parent   : Pets
+  Path     : ReplicatedStorage.Shared.Pets.Hatch
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : FeedPetCandy
+  Parent   : Pets
+  Path     : ReplicatedStorage.Shared.Pets.FeedPetCandy
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : SkeletalSlash
+  Path     : ReplicatedStorage.Shared.PetSkills.Skills.SkeletalSlash.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : SpiritBeam
+  Path     : ReplicatedStorage.Shared.PetSkills.Skills.SpiritBeam.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : SpiritBeamFire
+  Path     : ReplicatedStorage.Shared.PetSkills.Skills.SpiritBeamFire.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : SpiritBeamAether
+  Path     : ReplicatedStorage.Shared.PetSkills.Skills.SpiritBeamAether.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : SpiritBeamPoison
+  Path     : ReplicatedStorage.Shared.PetSkills.Skills.SpiritBeamPoison.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : HoodedSlash
+  Path     : ReplicatedStorage.Shared.PetSkills.Skills.HoodedSlash.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : CupidPetShockwave
+  Path     : ReplicatedStorage.Shared.PetSkills.Skills.CupidPetShockwave.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : HoodedSlashPoison
+  Path     : ReplicatedStorage.Shared.PetSkills.Skills.HoodedSlashPoison.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : InkPoolEvent
+  Parent   : SlimeSplashFire
+  Path     : ReplicatedStorage.Shared.PetSkills.Skills.SlimeSplashFire.InkPoolEvent
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : InkPoolEvent
+  Parent   : SlimeSplashPoison
+  Path     : ReplicatedStorage.Shared.PetSkills.Skills.SlimeSplashPoison.InkPoolEvent
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : InkPoolEvent
+  Parent   : SlimeSplashIce
+  Path     : ReplicatedStorage.Shared.PetSkills.Skills.SlimeSplashIce.InkPoolEvent
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHit
+  Parent   : ShadowEssence
+  Path     : ReplicatedStorage.Shared.PetSkills.Skills.ShadowEssence.OnHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : TeachSkill
+  Parent   : PetSkills
+  Path     : ReplicatedStorage.Shared.PetSkills.TeachSkill
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : UseSkill
+  Parent   : PetSkills
+  Path     : ReplicatedStorage.Shared.PetSkills.UseSkill
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Invite
+  Parent   : Trade
+  Path     : ReplicatedStorage.Shared.Trade.Invite
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : TradeUpdated
+  Parent   : Trade
+  Path     : ReplicatedStorage.Shared.Trade.TradeUpdated
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Accept
+  Parent   : Trade
+  Path     : ReplicatedStorage.Shared.Trade.Accept
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : AddItem
+  Parent   : Trade
+  Path     : ReplicatedStorage.Shared.Trade.AddItem
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : RemoveItem
+  Parent   : Trade
+  Path     : ReplicatedStorage.Shared.Trade.RemoveItem
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetGold
+  Parent   : Trade
+  Path     : ReplicatedStorage.Shared.Trade.SetGold
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : CancelTrade
+  Parent   : Trade
+  Path     : ReplicatedStorage.Shared.Trade.CancelTrade
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetLock
+  Parent   : Trade
+  Path     : ReplicatedStorage.Shared.Trade.SetLock
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetConfirm
+  Parent   : Trade
+  Path     : ReplicatedStorage.Shared.Trade.SetConfirm
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ToggleTradeRequests
+  Parent   : Trade
+  Path     : ReplicatedStorage.Shared.Trade.ToggleTradeRequests
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : IsBanned
+  Parent   : Trade
+  Path     : ReplicatedStorage.Shared.Trade.IsBanned
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : TradeCompleted
+  Parent   : Trade
+  Path     : ReplicatedStorage.Shared.Trade.TradeCompleted
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OpenChest
+  Parent   : AuraChest
+  Path     : ReplicatedStorage.Shared.AuraChest.OpenChest
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : BuyChest
+  Parent   : AuraChest
+  Path     : ReplicatedStorage.Shared.AuraChest.BuyChest
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : U
+  Parent   : BodyTracking
+  Path     : ReplicatedStorage.Shared.BodyTracking.U
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : HelperEvent
+  Parent   : Helper
+  Path     : ReplicatedStorage.Shared.Helper.HelperEvent
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : FireEvent
+  Parent   : Helper
+  Path     : ReplicatedStorage.Shared.Helper.FireEvent
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : SubjectToForeignPolicy
+  Parent   : Policies
+  Path     : ReplicatedStorage.Shared.Policies.SubjectToForeignPolicy
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetCompliantItems
+  Parent   : Policies
+  Path     : ReplicatedStorage.Shared.Policies.GetCompliantItems
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : IsChinaPolicy
+  Parent   : Policies
+  Path     : ReplicatedStorage.Shared.Policies.IsChinaPolicy
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetPolicy
+  Parent   : Policies
+  Path     : ReplicatedStorage.Shared.Policies.GetPolicy
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : JoinQueue
+  Parent   : EventSpinner
+  Path     : ReplicatedStorage.Shared.EventSpinner.JoinQueue
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : QueueUpdated
+  Parent   : EventSpinner
+  Path     : ReplicatedStorage.Shared.EventSpinner.QueueUpdated
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetQueueSpot
+  Parent   : EventSpinner
+  Path     : ReplicatedStorage.Shared.EventSpinner.GetQueueSpot
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : PurchaseCurrencyTier
+  Parent   : EventSpinner
+  Path     : ReplicatedStorage.Shared.EventSpinner.PurchaseCurrencyTier
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PrizeReceived
+  Parent   : EventSpinner
+  Path     : ReplicatedStorage.Shared.EventSpinner.PrizeReceived
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : MakeZeroGear
+  Parent   : Gear
+  Path     : ReplicatedStorage.Shared.Gear.MakeZeroGear
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : QuestUpdated
+  Parent   : Quests
+  Path     : ReplicatedStorage.Shared.Quests.QuestUpdated
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ClaimCrystals
+  Parent   : Quests
+  Path     : ReplicatedStorage.Shared.Quests.ClaimCrystals
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ClaimQuest
+  Parent   : Quests
+  Path     : ReplicatedStorage.Shared.Quests.ClaimQuest
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetWeeklyQuestCounterID
+  Parent   : Quests
+  Path     : ReplicatedStorage.Shared.Quests.GetWeeklyQuestCounterID
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : CrystalsClaimedEvent
+  Parent   : Quests
+  Path     : ReplicatedStorage.Shared.Quests.CrystalsClaimedEvent
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : DailyQuestsUpdated
+  Parent   : Quests
+  Path     : ReplicatedStorage.Shared.Quests.DailyQuestsUpdated
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : CrystalsClaimed
+  Parent   : Quests
+  Path     : ReplicatedStorage.Shared.Quests.CrystalsClaimed
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetWeeklyQuestData
+  Parent   : Quests
+  Path     : ReplicatedStorage.Shared.Quests.GetWeeklyQuestData
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : ClaimWeeklyReward
+  Parent   : Quests
+  Path     : ReplicatedStorage.Shared.Quests.ClaimWeeklyReward
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetTrackingQuest
+  Parent   : Quests
+  Path     : ReplicatedStorage.Shared.Quests.SetTrackingQuest
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : WeeklyQuestsChanged
+  Parent   : Quests
+  Path     : ReplicatedStorage.Shared.Quests.WeeklyQuestsChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : BattlepassClaimed
+  Parent   : Quests
+  Path     : ReplicatedStorage.Shared.Quests.BattlepassClaimed
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : DailyQuestsChanged
+  Parent   : Quests
+  Path     : ReplicatedStorage.Shared.Quests.DailyQuestsChanged
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ClaimDailyGuildQuest
+  Parent   : Quests
+  Path     : ReplicatedStorage.Shared.Quests.ClaimDailyGuildQuest
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GuildDailyIsClaimed
+  Parent   : Quests
+  Path     : ReplicatedStorage.Shared.Quests.GuildDailyIsClaimed
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : ClaimReward
+  Parent   : Events
+  Path     : ReplicatedStorage.Shared.Events.ClaimReward
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetProgress
+  Parent   : Events
+  Path     : ReplicatedStorage.Shared.Events.GetProgress
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : DidComplete
+  Parent   : Events
+  Path     : ReplicatedStorage.Shared.Events.DidComplete
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : WeekChanged
+  Parent   : Events
+  Path     : ReplicatedStorage.Shared.Events.WeekChanged
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DayChanged
+  Parent   : Events
+  Path     : ReplicatedStorage.Shared.Events.DayChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : HasDailyFlag
+  Parent   : Events
+  Path     : ReplicatedStorage.Shared.Events.HasDailyFlag
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : HasWeeklyFlag
+  Parent   : Events
+  Path     : ReplicatedStorage.Shared.Events.HasWeeklyFlag
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : DailyFlagChanged
+  Parent   : Events
+  Path     : ReplicatedStorage.Shared.Events.DailyFlagChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : HasDailyFlagBulk
+  Parent   : Events
+  Path     : ReplicatedStorage.Shared.Events.HasDailyFlagBulk
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : HasWeeklyFlagBulk
+  Parent   : Events
+  Path     : ReplicatedStorage.Shared.Events.HasWeeklyFlagBulk
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : WeeklyFlagChanged
+  Parent   : Events
+  Path     : ReplicatedStorage.Shared.Events.WeeklyFlagChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : HasPurchasedCatchUp
+  Parent   : Events
+  Path     : ReplicatedStorage.Shared.Events.HasPurchasedCatchUp
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : PurchasedCatchUp
+  Parent   : Events
+  Path     : ReplicatedStorage.Shared.Events.PurchasedCatchUp
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetCatchUpPrice
+  Parent   : Events
+  Path     : ReplicatedStorage.Shared.Events.GetCatchUpPrice
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : SetupPortal
+  Parent   : T3Elevator
+  Path     : ReplicatedStorage.Shared.Towers.T3Elevator.SetupPortal
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : TowerFinished
+  Parent   : Towers
+  Path     : ReplicatedStorage.Shared.Towers.TowerFinished
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : UpdateChests
+  Parent   : Towers
+  Path     : ReplicatedStorage.Shared.Towers.UpdateChests
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Teleport
+  Parent   : Towers
+  Path     : ReplicatedStorage.Shared.Towers.Teleport
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Print
+  Parent   : Towers
+  Path     : ReplicatedStorage.Shared.Towers.Print
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : RequestCodes
+  Parent   : PromoCodes
+  Path     : ReplicatedStorage.Shared.PromoCodes.RequestCodes
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : LookupCode
+  Parent   : PromoCodes
+  Path     : ReplicatedStorage.Shared.PromoCodes.LookupCode
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : RedeemCode
+  Parent   : PromoCodes
+  Path     : ReplicatedStorage.Shared.PromoCodes.RedeemCode
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : VIPChanged
+  Parent   : VIP
+  Path     : ReplicatedStorage.Shared.VIP.VIPChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : IsExtraDrop
+  Parent   : VIP
+  Path     : ReplicatedStorage.Shared.VIP.IsExtraDrop
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : IsVIP
+  Parent   : VIP
+  Path     : ReplicatedStorage.Shared.VIP.IsVIP
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : OwnsIncubator
+  Parent   : VIP
+  Path     : ReplicatedStorage.Shared.VIP.OwnsIncubator
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetVIPPlusMilestoneRewards
+  Parent   : VIP
+  Path     : ReplicatedStorage.Shared.VIP.GetVIPPlusMilestoneRewards
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : ClaimVIPPlusMilestone
+  Parent   : VIP
+  Path     : ReplicatedStorage.Shared.VIP.ClaimVIPPlusMilestone
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetVIPPlusDailyCrystalStatus
+  Parent   : VIP
+  Path     : ReplicatedStorage.Shared.VIP.GetVIPPlusDailyCrystalStatus
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : ClaimVIPPlusDailyCrystals
+  Parent   : VIP
+  Path     : ReplicatedStorage.Shared.VIP.ClaimVIPPlusDailyCrystals
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : CommitVIPPlusLevel25AutoShown
+  Parent   : VIP
+  Path     : ReplicatedStorage.Shared.VIP.CommitVIPPlusLevel25AutoShown
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PremiumChanged
+  Parent   : Starterpass
+  Path     : ReplicatedStorage.Shared.Starterpass.PremiumChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetPlayerExp
+  Parent   : Starterpass
+  Path     : ReplicatedStorage.Shared.Starterpass.GetPlayerExp
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : RedeemItem
+  Parent   : Starterpass
+  Path     : ReplicatedStorage.Shared.Starterpass.RedeemItem
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ItemsUpdated
+  Parent   : Starterpass
+  Path     : ReplicatedStorage.Shared.Starterpass.ItemsUpdated
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : RedeemFailed
+  Parent   : Starterpass
+  Path     : ReplicatedStorage.Shared.Starterpass.RedeemFailed
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : RedeemedItem
+  Parent   : Starterpass
+  Path     : ReplicatedStorage.Shared.Starterpass.RedeemedItem
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetItemRanks
+  Parent   : Starterpass
+  Path     : ReplicatedStorage.Shared.Starterpass.GetItemRanks
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : PurchaseRank
+  Parent   : Starterpass
+  Path     : ReplicatedStorage.Shared.Starterpass.PurchaseRank
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PurchasePremium
+  Parent   : Starterpass
+  Path     : ReplicatedStorage.Shared.Starterpass.PurchasePremium
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ItemsAvailable
+  Parent   : Starterpass
+  Path     : ReplicatedStorage.Shared.Starterpass.ItemsAvailable
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ExpChanged
+  Parent   : Starterpass
+  Path     : ReplicatedStorage.Shared.Starterpass.ExpChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : HasPremium
+  Parent   : Starterpass
+  Path     : ReplicatedStorage.Shared.Starterpass.HasPremium
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : ItemsRedeemable
+  Parent   : Starterpass
+  Path     : ReplicatedStorage.Shared.Starterpass.ItemsRedeemable
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetStartTime
+  Parent   : Starterpass
+  Path     : ReplicatedStorage.Shared.Starterpass.GetStartTime
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : IcySpikes
+  Parent   : IcefireMage
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.IcefireMage.IcySpikes
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Leap
+  Parent   : IcefireMage
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.IcefireMage.Leap
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : IcefireMage
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.IcefireMage.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : LightningStrike
+  Parent   : IcefireMage
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.IcefireMage.LightningStrike
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Fireball
+  Parent   : IcefireMage
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.IcefireMage.Fireball
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Primary
+  Parent   : IcefireMage
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.IcefireMage.Primary
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Fireball
+  Parent   : Mage
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Mage.Fireball
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Leap
+  Parent   : Mage
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Mage.Leap
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ArcaneWave
+  Parent   : Mage
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Mage.ArcaneWave
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Primary
+  Parent   : Mage
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Mage.Primary
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : Mage
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Mage.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : Defender
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Defender.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Leap
+  Parent   : DualWielder
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.DualWielder.Leap
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SkillUsed
+  Parent   : DualWielder
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.DualWielder.SkillUsed
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : DualWielder
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.DualWielder.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : UpdateSpeed
+  Parent   : DualWielder
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.DualWielder.UpdateSpeed
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Whirlwind
+  Parent   : DualWielder
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.DualWielder.Whirlwind
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : AttackBuff
+  Parent   : DualWielder
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.DualWielder.AttackBuff
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Barrier
+  Parent   : MageOfLight
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.MageOfLight.Barrier
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Infuse
+  Parent   : MageOfLight
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.MageOfLight.Infuse
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : HealCircle
+  Parent   : MageOfLight
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.MageOfLight.HealCircle
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ReplicateOrbs
+  Parent   : MageOfLight
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.MageOfLight.ReplicateOrbs
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : MageOfLight
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.MageOfLight.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DestroyOrbs
+  Parent   : MageOfLight
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.MageOfLight.DestroyOrbs
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : AggroSlam
+  Parent   : Warlord
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Warlord.AggroSlam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ChainsOfWar
+  Parent   : Warlord
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Warlord.ChainsOfWar
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Fissure
+  Parent   : Warlord
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Warlord.Fissure
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Block
+  Parent   : Warlord
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Warlord.Block
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Primary
+  Parent   : Warlord
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Warlord.Primary
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : Warlord
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Warlord.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : BlockStopped
+  Parent   : Warlord
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Warlord.BlockStopped
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : AggroDraw
+  Parent   : Guardian
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Guardian.AggroDraw
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Spin
+  Parent   : Guardian
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Guardian.Spin
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : Guardian
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Guardian.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Block
+  Parent   : Paladin
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Paladin.Block
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : BlockStopped
+  Parent   : Paladin
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Paladin.BlockStopped
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : GuildedLight
+  Parent   : Paladin
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Paladin.GuildedLight
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : LightThrust
+  Parent   : Paladin
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Paladin.LightThrust
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : Paladin
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Paladin.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : LeapSlash
+  Parent   : Swordmaster
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Swordmaster.LeapSlash
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : CrescentStrike
+  Parent   : Swordmaster
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Swordmaster.CrescentStrike
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : UpdateSpeed
+  Parent   : Swordmaster
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Swordmaster.UpdateSpeed
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : Swordmaster
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Swordmaster.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : InfinityStrikeStart
+  Parent   : Dragoon
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Dragoon.InfinityStrikeStart
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : MultiStrike
+  Parent   : Dragoon
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Dragoon.MultiStrike
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DragonSlam
+  Parent   : Dragoon
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Dragoon.DragonSlam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : Dragoon
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Dragoon.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : UltimateDragons
+  Parent   : Dragoon
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Dragoon.UltimateDragons
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : InfinityStrike
+  Parent   : Dragoon
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Dragoon.InfinityStrike
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : AggroDraw
+  Parent   : Archer
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Archer.AggroDraw
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Spin
+  Parent   : Archer
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Archer.Spin
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : Archer
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Archer.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SpiritBomb
+  Parent   : Archer
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Archer.SpiritBomb
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoArrow
+  Parent   : Archer
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Archer.DoArrow
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : AggroSlam
+  Parent   : Berserker
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Berserker.AggroSlam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : BerserkHit
+  Parent   : Berserker
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Berserker.BerserkHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Fissure
+  Parent   : Berserker
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Berserker.Fissure
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : GigaSpin
+  Parent   : Berserker
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Berserker.GigaSpin
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Primary
+  Parent   : Berserker
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Berserker.Primary
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : Berserker
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Berserker.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Primary
+  Parent   : Summoner
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Summoner.Primary
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Summon
+  Parent   : Summoner
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Summoner.Summon
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ExplodeSummons
+  Parent   : Summoner
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Summoner.ExplodeSummons
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SoulHarvest
+  Parent   : Summoner
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Summoner.SoulHarvest
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : Summoner
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Summoner.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SoulsChanged
+  Parent   : Necromancer
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Necromancer.SoulsChanged
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : Necromancer
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Necromancer.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : EventStealthWalk
+  Parent   : Assassin
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Assassin.EventStealthWalk
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : EventShadowSlash
+  Parent   : Assassin
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Assassin.EventShadowSlash
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : Assassin
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Assassin.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ReplicateStealthWalk
+  Parent   : Assassin
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Assassin.ReplicateStealthWalk
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : EventShadowLeap
+  Parent   : Assassin
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Assassin.EventShadowLeap
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : ActivateShadowLeap
+  Parent   : Assassin
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Assassin.ActivateShadowLeap
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : DestroyStealthWalk
+  Parent   : Assassin
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Assassin.DestroyStealthWalk
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ConsumeOrbs
+  Parent   : MageOfShadows
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.MageOfShadows.ConsumeOrbs
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ReplicateOrbs
+  Parent   : MageOfShadows
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.MageOfShadows.ReplicateOrbs
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : MageOfShadows
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.MageOfShadows.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DestroyOrbs
+  Parent   : MageOfShadows
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.MageOfShadows.DestroyOrbs
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ShadowChains
+  Parent   : MageOfShadows
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.MageOfShadows.ShadowChains
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : Demon
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Demon.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Throw
+  Parent   : Demon
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Demon.Throw
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : LifeSteal
+  Parent   : Demon
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Demon.LifeSteal
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ReplicateOrbs
+  Parent   : Demon
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Demon.ReplicateOrbs
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : BloodBinding
+  Parent   : Demon
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Demon.BloodBinding
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : Hunter
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Hunter.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoArrow
+  Parent   : Hunter
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Hunter.DoArrow
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Summon
+  Parent   : Hunter
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Hunter.Summon
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Tame
+  Parent   : Hunter
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Hunter.Tame
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Release
+  Parent   : Hunter
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Hunter.Release
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DivineArrowHeal
+  Parent   : Hunter
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Hunter.DivineArrowHeal
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ReplicateVisuals
+  Parent   : Hunter
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Hunter.ReplicateVisuals
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Frenzy
+  Parent   : Hunter
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Hunter.Frenzy
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetWalkspeed
+  Parent   : Hunter
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Hunter.GetWalkspeed
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : Supercharge
+  Parent   : Stormcaller
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Stormcaller.Supercharge
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : Stormcaller
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Stormcaller.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Primary
+  Parent   : Stormcaller
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Stormcaller.Primary
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ChainLightning
+  Parent   : Stormcaller
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Stormcaller.ChainLightning
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : UltimateDischarge
+  Parent   : Stormcaller
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Stormcaller.UltimateDischarge
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : InfinityStrikeStart
+  Parent   : Leviathan
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Leviathan.InfinityStrikeStart
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : InfinityStrike
+  Parent   : Leviathan
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Leviathan.InfinityStrike
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : InfinityTrail
+  Parent   : Leviathan
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Leviathan.InfinityTrail
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PoppingBubbleDamage
+  Parent   : Leviathan
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Leviathan.PoppingBubbleDamage
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Riptide
+  Parent   : Leviathan
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Leviathan.Riptide
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Mealstrom
+  Parent   : Leviathan
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Leviathan.Mealstrom
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : HydrosurgeDragonLand
+  Parent   : Leviathan
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Leviathan.HydrosurgeDragonLand
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Hydrosurge
+  Parent   : Leviathan
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Leviathan.Hydrosurge
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : Leviathan
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Leviathan.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : AggroDraw
+  Parent   : Starbreaker
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Starbreaker.AggroDraw
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Spin
+  Parent   : Starbreaker
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Starbreaker.Spin
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ultimate
+  Parent   : Starbreaker
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Starbreaker.Ultimate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Flare
+  Parent   : Starbreaker
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Starbreaker.Flare
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Starforge
+  Parent   : Starbreaker
+  Path     : ReplicatedStorage.Shared.Combat.Skillsets.Starbreaker.Starforge
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Attack
+  Parent   : Combat
+  Path     : ReplicatedStorage.Shared.Combat.Attack
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : RegisterSubcollider
+  Parent   : Combat
+  Path     : ReplicatedStorage.Shared.Combat.RegisterSubcollider
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetTrails
+  Parent   : Combat
+  Path     : ReplicatedStorage.Shared.Combat.SetTrails
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : InviteToDuel
+  Parent   : Combat
+  Path     : ReplicatedStorage.Shared.Combat.InviteToDuel
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnDamaged
+  Parent   : Combat
+  Path     : ReplicatedStorage.Shared.Combat.OnDamaged
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Blocked
+  Parent   : Combat
+  Path     : ReplicatedStorage.Shared.Combat.Blocked
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DuelStarted
+  Parent   : Combat
+  Path     : ReplicatedStorage.Shared.Combat.DuelStarted
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DuelResults
+  Parent   : Combat
+  Path     : ReplicatedStorage.Shared.Combat.DuelResults
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : AcceptedDuelInvite
+  Parent   : Combat
+  Path     : ReplicatedStorage.Shared.Combat.AcceptedDuelInvite
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : EnemyMarked
+  Parent   : Combat
+  Path     : ReplicatedStorage.Shared.Combat.EnemyMarked
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DidDodge
+  Parent   : Combat
+  Path     : ReplicatedStorage.Shared.Combat.DidDodge
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PvPEntrySignal
+  Parent   : Combat
+  Path     : ReplicatedStorage.Shared.Combat.PvPEntrySignal
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PlayerDiedSignal
+  Parent   : Combat
+  Path     : ReplicatedStorage.Shared.Combat.PlayerDiedSignal
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PlayerHitSignal
+  Parent   : Combat
+  Path     : ReplicatedStorage.Shared.Combat.PlayerHitSignal
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : AttackTarget
+  Parent   : Combat
+  Path     : ReplicatedStorage.Shared.Combat.AttackTarget
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SystemNotification
+  Parent   : Combat
+  Path     : ReplicatedStorage.Shared.Combat.SystemNotification
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnHitFlash
+  Parent   : Combat
+  Path     : ReplicatedStorage.Shared.Combat.OnHitFlash
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PlayerAttacked
+  Parent   : Combat
+  Path     : ReplicatedStorage.Shared.Combat.PlayerAttacked
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ResetCooldown
+  Parent   : Combat
+  Path     : ReplicatedStorage.Shared.Combat.ResetCooldown
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : FiredCooldown
+  Parent   : Combat
+  Path     : ReplicatedStorage.Shared.Combat.FiredCooldown
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : LeaderboardsUpdated
+  Parent   : LeaderboardHookup
+  Path     : ReplicatedStorage.Shared.LeaderboardHookup.LeaderboardsUpdated
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetScore
+  Parent   : LeaderboardHookup
+  Path     : ReplicatedStorage.Shared.LeaderboardHookup.GetScore
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetLifetimeCrystals
+  Parent   : LeaderboardHookup
+  Path     : ReplicatedStorage.Shared.LeaderboardHookup.GetLifetimeCrystals
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : Verify
+  Parent   : LoyaltyRewards
+  Path     : ReplicatedStorage.Shared.LoyaltyRewards.Verify
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetStatus
+  Parent   : LoyaltyRewards
+  Path     : ReplicatedStorage.Shared.LoyaltyRewards.GetStatus
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : LogAction
+  Parent   : ActionLogger
+  Path     : ReplicatedStorage.Shared.ActionLogger.LogAction
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OutfitChanged
+  Parent   : Outfits
+  Path     : ReplicatedStorage.Shared.Outfits.OutfitChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : EquipOutfit
+  Parent   : Outfits
+  Path     : ReplicatedStorage.Shared.Outfits.EquipOutfit
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : DeleteOutfit
+  Parent   : Outfits
+  Path     : ReplicatedStorage.Shared.Outfits.DeleteOutfit
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : SaveCurrentOutfit
+  Parent   : Outfits
+  Path     : ReplicatedStorage.Shared.Outfits.SaveCurrentOutfit
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : SetOutfitName
+  Parent   : Outfits
+  Path     : ReplicatedStorage.Shared.Outfits.SetOutfitName
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : GamePassUnlocked
+  Parent   : Outfits
+  Path     : ReplicatedStorage.Shared.Outfits.GamePassUnlocked
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : SetOutfitName
+  Parent   : Outfits
+  Path     : ReplicatedStorage.Shared.Outfits.SetOutfitName
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : BuySlot
+  Parent   : Outfits
+  Path     : ReplicatedStorage.Shared.Outfits.BuySlot
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : AvailableSlotsChanged
+  Parent   : Outfits
+  Path     : ReplicatedStorage.Shared.Outfits.AvailableSlotsChanged
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ProductInfoChanged
+  Parent   : UGCInfo
+  Path     : ReplicatedStorage.Shared.UGCInfo.ProductInfoChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : RedeemFreeUGC
+  Parent   : UGCInfo
+  Path     : ReplicatedStorage.Shared.UGCInfo.RedeemFreeUGC
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : ScoreChanged
+  Parent   : UGCInfo
+  Path     : ReplicatedStorage.Shared.UGCInfo.ScoreChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetScore
+  Parent   : UGCInfo
+  Path     : ReplicatedStorage.Shared.UGCInfo.GetScore
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : BuySkip
+  Parent   : UGCInfo
+  Path     : ReplicatedStorage.Shared.UGCInfo.BuySkip
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetBankItems
+  Parent   : Bank
+  Path     : ReplicatedStorage.Shared.Bank.GetBankItems
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : BankUpdated
+  Parent   : Bank
+  Path     : ReplicatedStorage.Shared.Bank.BankUpdated
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : TransferToBank
+  Parent   : Bank
+  Path     : ReplicatedStorage.Shared.Bank.TransferToBank
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : WithdrawFromBank
+  Parent   : Bank
+  Path     : ReplicatedStorage.Shared.Bank.WithdrawFromBank
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SendError
+  Parent   : Bank
+  Path     : ReplicatedStorage.Shared.Bank.SendError
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DeleteFromBank
+  Parent   : Bank
+  Path     : ReplicatedStorage.Shared.Bank.DeleteFromBank
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : OwnsExtraBankSlots
+  Parent   : Bank
+  Path     : ReplicatedStorage.Shared.Bank.OwnsExtraBankSlots
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : Close
+  Parent   : Bank
+  Path     : ReplicatedStorage.Shared.Bank.Close
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PremiumChanged
+  Parent   : GoldenEggPass
+  Path     : ReplicatedStorage.Shared.GoldenEggPass.PremiumChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetPlayerExp
+  Parent   : GoldenEggPass
+  Path     : ReplicatedStorage.Shared.GoldenEggPass.GetPlayerExp
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : RedeemItem
+  Parent   : GoldenEggPass
+  Path     : ReplicatedStorage.Shared.GoldenEggPass.RedeemItem
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ItemsUpdated
+  Parent   : GoldenEggPass
+  Path     : ReplicatedStorage.Shared.GoldenEggPass.ItemsUpdated
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : RedeemFailed
+  Parent   : GoldenEggPass
+  Path     : ReplicatedStorage.Shared.GoldenEggPass.RedeemFailed
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : RedeemedItem
+  Parent   : GoldenEggPass
+  Path     : ReplicatedStorage.Shared.GoldenEggPass.RedeemedItem
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetItemRanks
+  Parent   : GoldenEggPass
+  Path     : ReplicatedStorage.Shared.GoldenEggPass.GetItemRanks
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : PurchaseRank
+  Parent   : GoldenEggPass
+  Path     : ReplicatedStorage.Shared.GoldenEggPass.PurchaseRank
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PurchasePremium
+  Parent   : GoldenEggPass
+  Path     : ReplicatedStorage.Shared.GoldenEggPass.PurchasePremium
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ItemsAvailable
+  Parent   : GoldenEggPass
+  Path     : ReplicatedStorage.Shared.GoldenEggPass.ItemsAvailable
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ExpChanged
+  Parent   : GoldenEggPass
+  Path     : ReplicatedStorage.Shared.GoldenEggPass.ExpChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : HasPremium
+  Parent   : GoldenEggPass
+  Path     : ReplicatedStorage.Shared.GoldenEggPass.HasPremium
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetStartTime
+  Parent   : GoldenEggPass
+  Path     : ReplicatedStorage.Shared.GoldenEggPass.GetStartTime
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : ItemsRedeemable
+  Parent   : GoldenEggPass
+  Path     : ReplicatedStorage.Shared.GoldenEggPass.ItemsRedeemable
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : Contribute
+  Parent   : GoldenEggPass
+  Path     : ReplicatedStorage.Shared.GoldenEggPass.Contribute
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetCanInvite
+  Parent   : CommunityRewards
+  Path     : ReplicatedStorage.Shared.CommunityRewards.GetCanInvite
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetStatus
+  Parent   : CommunityRewards
+  Path     : ReplicatedStorage.Shared.CommunityRewards.GetStatus
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : Verify
+  Parent   : CommunityRewards
+  Path     : ReplicatedStorage.Shared.CommunityRewards.Verify
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : PremiumChanged
+  Parent   : Battlepass
+  Path     : ReplicatedStorage.Shared.Battlepass.PremiumChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetPlayerExp
+  Parent   : Battlepass
+  Path     : ReplicatedStorage.Shared.Battlepass.GetPlayerExp
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : RedeemItem
+  Parent   : Battlepass
+  Path     : ReplicatedStorage.Shared.Battlepass.RedeemItem
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ItemsUpdated
+  Parent   : Battlepass
+  Path     : ReplicatedStorage.Shared.Battlepass.ItemsUpdated
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : RedeemFailed
+  Parent   : Battlepass
+  Path     : ReplicatedStorage.Shared.Battlepass.RedeemFailed
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : RedeemedItem
+  Parent   : Battlepass
+  Path     : ReplicatedStorage.Shared.Battlepass.RedeemedItem
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetItemRanks
+  Parent   : Battlepass
+  Path     : ReplicatedStorage.Shared.Battlepass.GetItemRanks
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : PurchaseRank
+  Parent   : Battlepass
+  Path     : ReplicatedStorage.Shared.Battlepass.PurchaseRank
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PurchasePremium
+  Parent   : Battlepass
+  Path     : ReplicatedStorage.Shared.Battlepass.PurchasePremium
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ItemsAvailable
+  Parent   : Battlepass
+  Path     : ReplicatedStorage.Shared.Battlepass.ItemsAvailable
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ExpChanged
+  Parent   : Battlepass
+  Path     : ReplicatedStorage.Shared.Battlepass.ExpChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : HasPremium
+  Parent   : Battlepass
+  Path     : ReplicatedStorage.Shared.Battlepass.HasPremium
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : ItemsRedeemable
+  Parent   : Battlepass
+  Path     : ReplicatedStorage.Shared.Battlepass.ItemsRedeemable
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : BuyReset
+  Parent   : Battlepass
+  Path     : ReplicatedStorage.Shared.Battlepass.BuyReset
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : BattlepassActivated
+  Parent   : Battlepass
+  Path     : ReplicatedStorage.Shared.Battlepass.BattlepassActivated
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : BattlepassDeactivated
+  Parent   : Battlepass
+  Path     : ReplicatedStorage.Shared.Battlepass.BattlepassDeactivated
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : CanResetBattlepass
+  Parent   : Battlepass
+  Path     : ReplicatedStorage.Shared.Battlepass.CanResetBattlepass
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : ProductInfoChanged
+  Parent   : DyedMountQuest
+  Path     : ReplicatedStorage.Shared.DyedMountQuest.ProductInfoChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : RedeemMount
+  Parent   : DyedMountQuest
+  Path     : ReplicatedStorage.Shared.DyedMountQuest.RedeemMount
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : ScoreChanged
+  Parent   : DyedMountQuest
+  Path     : ReplicatedStorage.Shared.DyedMountQuest.ScoreChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetScore
+  Parent   : DyedMountQuest
+  Path     : ReplicatedStorage.Shared.DyedMountQuest.GetScore
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : BuySkip
+  Parent   : DyedMountQuest
+  Path     : ReplicatedStorage.Shared.DyedMountQuest.BuySkip
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetAwardAvailable
+  Parent   : DyedMountQuest
+  Path     : ReplicatedStorage.Shared.DyedMountQuest.GetAwardAvailable
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : PassengerSeat
+  Parent   : MountPassengerSeats
+  Path     : ReplicatedStorage.Shared.MountPassengerSeats.PassengerSeat
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ClaimAdventReward
+  Parent   : AdventCalendar
+  Path     : ReplicatedStorage.Shared.AdventCalendar.ClaimAdventReward
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : UpdateAdventCalendar
+  Parent   : AdventCalendar
+  Path     : ReplicatedStorage.Shared.AdventCalendar.UpdateAdventCalendar
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : CheckAdventClaimed
+  Parent   : AdventCalendar
+  Path     : ReplicatedStorage.Shared.AdventCalendar.CheckAdventClaimed
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : IsVIP
+  Parent   : EventVIP
+  Path     : ReplicatedStorage.Shared.EventVIP.IsVIP
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetPurchasedClasses
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.GetPurchasedClasses
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : LevelUp
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.LevelUp
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetNumFlagsFromCollection
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.GetNumFlagsFromCollection
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : CreateCharacter
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.CreateCharacter
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : DeleteCharacter
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.DeleteCharacter
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : RemodelCharacter
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.RemodelCharacter
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : SwitchClass
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.SwitchClass
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetUpsell
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.GetUpsell
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : UnlockClass
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.UnlockClass
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ResetClasses
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.ResetClasses
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnTicketSanitized
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.OnTicketSanitized
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : OwnsClass
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.OwnsClass
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : SetStarterPet
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.SetStarterPet
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetCollectionFlag
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.GetCollectionFlag
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : Prestige
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.Prestige
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PrimeGamingCheck
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.PrimeGamingCheck
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : AwardDailyLogin
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.AwardDailyLogin
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetDailyLogin
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.GetDailyLogin
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : DailyLoginChanged
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.DailyLoginChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : BulkGetCollectionFlag
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.BulkGetCollectionFlag
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetHighestTowerFloor
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.GetHighestTowerFloor
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : ProfileLoaded
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.ProfileLoaded
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetOwnCollectionValue
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.GetOwnCollectionValue
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : SplashedClass
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.SplashedClass
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetIsFirstCustomization
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.GetIsFirstCustomization
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : SplashMenu
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.SplashMenu
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : IsBanned
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.IsBanned
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : ReportConfirmClassInMainMenu
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.ReportConfirmClassInMainMenu
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SystemNotification
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.SystemNotification
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetClassColor
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.SetClassColor
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetClassColor
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.GetClassColor
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : ClassColorChanged
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.ClassColorChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetHighestTowerFloor
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.GetHighestTowerFloor
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : HighestTowerFloorChanged
+  Parent   : Profile
+  Path     : ReplicatedStorage.Shared.Profile.HighestTowerFloorChanged
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ConfigSync
+  Parent   : Config
+  Path     : ReplicatedStorage.Shared.Config.ConfigSync
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : RequestKey
+  Parent   : Config
+  Path     : ReplicatedStorage.Shared.Config.RequestKey
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : Event
+  Parent   : Effects
+  Path     : ReplicatedStorage.Shared.Effects.Event
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnPipe
+  Parent   : KrakenPipe
+  Path     : ReplicatedStorage.Shared.Effects.EffectScripts.KrakenPipe.OnPipe
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnCannon
+  Parent   : KrakenCannon
+  Path     : ReplicatedStorage.Shared.Effects.EffectScripts.KrakenCannon.OnCannon
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnWave
+  Parent   : KrakenTsunami
+  Path     : ReplicatedStorage.Shared.Effects.EffectScripts.KrakenTsunami.OnWave
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnPipe
+  Parent   : GreaterTreeNuke
+  Path     : ReplicatedStorage.Shared.Effects.EffectScripts.GreaterTreeNuke.OnPipe
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnCollected
+  Parent   : SoulObject
+  Path     : ReplicatedStorage.Shared.Effects.EffectScripts.SoulObject.OnCollected
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Finish
+  Parent   : FireCage
+  Path     : ReplicatedStorage.Shared.Effects.EffectScripts.FireCage.Finish
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnCollected
+  Parent   : SoulObjectNecromancer
+  Path     : ReplicatedStorage.Shared.Effects.EffectScripts.SoulObjectNecromancer.OnCollected
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Effect
+  Parent   : Effects
+  Path     : ReplicatedStorage.Shared.Effects.Effect
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : RenderDamageNumber
+  Parent   : Effects
+  Path     : ReplicatedStorage.Shared.Effects.RenderDamageNumber
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ClientPhysicalMoverHookup
+  Parent   : Effects
+  Path     : ReplicatedStorage.Shared.Effects.ClientPhysicalMoverHookup
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : FireCallout
+  Parent   : Effects
+  Path     : ReplicatedStorage.Shared.Effects.FireCallout
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OnBuffSpawn
+  Parent   : BuffSpawner
+  Path     : ReplicatedStorage.Shared.BuffSpawner.OnBuffSpawn
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : OpenBooth
+  Parent   : GuildBooths
+  Path     : ReplicatedStorage.Shared.GuildBooths.OpenBooth
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : CloseBooth
+  Parent   : GuildBooths
+  Path     : ReplicatedStorage.Shared.GuildBooths.CloseBooth
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ViewedBooth
+  Parent   : GuildBooths
+  Path     : ReplicatedStorage.Shared.GuildBooths.ViewedBooth
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : RegionChangedSignal
+  Parent   : Regions
+  Path     : ReplicatedStorage.Shared.Regions.RegionChangedSignal
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DoEventCommand
+  Parent   : AdminEvent
+  Path     : ReplicatedStorage.Shared.AdminEvent.DoEventCommand
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DisplayMessage
+  Parent   : AdminEvent
+  Path     : ReplicatedStorage.Shared.AdminEvent.DisplayMessage
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : LoadHouse
+  Parent   : Housing
+  Path     : ReplicatedStorage.Shared.Housing.LoadHouse
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DeleteFurniture
+  Parent   : Housing
+  Path     : ReplicatedStorage.Shared.Housing.DeleteFurniture
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ExitHouse
+  Parent   : Housing
+  Path     : ReplicatedStorage.Shared.Housing.ExitHouse
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DeleteAllFurniture
+  Parent   : Housing
+  Path     : ReplicatedStorage.Shared.Housing.DeleteAllFurniture
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : UpdateFurnitureCFrame
+  Parent   : Housing
+  Path     : ReplicatedStorage.Shared.Housing.UpdateFurnitureCFrame
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PlaceNewFurniture
+  Parent   : Housing
+  Path     : ReplicatedStorage.Shared.Housing.PlaceNewFurniture
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ApplyFurnitureCustomize
+  Parent   : Housing
+  Path     : ReplicatedStorage.Shared.Housing.ApplyFurnitureCustomize
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ApplyHousePaint
+  Parent   : Housing
+  Path     : ReplicatedStorage.Shared.Housing.ApplyHousePaint
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : AddToBuilders
+  Parent   : Housing
+  Path     : ReplicatedStorage.Shared.Housing.AddToBuilders
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : RemoveFromBuilders
+  Parent   : Housing
+  Path     : ReplicatedStorage.Shared.Housing.RemoveFromBuilders
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : LoadLocalHouse
+  Parent   : Housing
+  Path     : ReplicatedStorage.Shared.Housing.LoadLocalHouse
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : UnloadLocalHouse
+  Parent   : Housing
+  Path     : ReplicatedStorage.Shared.Housing.UnloadLocalHouse
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : FurnitureUpdate
+  Parent   : Housing
+  Path     : ReplicatedStorage.Shared.Housing.FurnitureUpdate
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ApplyPosterTexture
+  Parent   : Housing
+  Path     : ReplicatedStorage.Shared.Housing.ApplyPosterTexture
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : RemovePosterFromHistory
+  Parent   : Housing
+  Path     : ReplicatedStorage.Shared.Housing.RemovePosterFromHistory
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DuplicateFurnitureWithDyes
+  Parent   : Housing
+  Path     : ReplicatedStorage.Shared.Housing.DuplicateFurnitureWithDyes
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetPointsLog
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.GetPointsLog
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetCache
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.GetCache
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : AcceptInvite
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.AcceptInvite
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : ClaimGuildReward
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.ClaimGuildReward
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : DeclineInvite
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.DeclineInvite
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Invite
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.Invite
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Invited
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.Invited
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Kick
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.Kick
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Leave
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.Leave
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : MakeLeader
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.MakeLeader
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Promote
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.Promote
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Update
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.Update
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetGroupData
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.GetGroupData
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetLeaderboard
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.GetLeaderboard
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetMemberOnlineStatus
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.GetMemberOnlineStatus
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : ChangeRanks
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.ChangeRanks
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PublicInviteChanged
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.PublicInviteChanged
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetPublicInviteState
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.SetPublicInviteState
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetAuditLog
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.GetAuditLog
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : UpdateInfo
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.UpdateInfo
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : UpdateAnyGuild
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.UpdateAnyGuild
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : GuildAssignment
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.GuildAssignment
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetPermissionColor
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.GetPermissionColor
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : LeaderboardUpdated
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.LeaderboardUpdated
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetDungeonPointsStatus
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.GetDungeonPointsStatus
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetClaimStatus
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.GetClaimStatus
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : ClaimReward
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.ClaimReward
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetTopGuilds
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.GetTopGuilds
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : Create
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.Create
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetRecentMessages
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.GetRecentMessages
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetRankColor
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.GetRankColor
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : SetPublicJoinState
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.SetPublicJoinState
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PublicJoinChanged
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.PublicJoinChanged
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetPublicJoinState
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.GetPublicJoinState
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : JoinGuildFromPublic
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.JoinGuildFromPublic
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : IsBanned
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.IsBanned
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : SaveHallCustomization
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.SaveHallCustomization
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : TeleportToGuildHall
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.TeleportToGuildHall
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : PurchaseGuildHall
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.PurchaseGuildHall
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : PurchaseExpansion
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.PurchaseExpansion
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetAllGuildHallServers
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.GetAllGuildHallServers
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : TeleportToGuildHallByCode
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.TeleportToGuildHallByCode
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetGuildHallPrivacy
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.SetGuildHallPrivacy
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : KickedFromGuildHall
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.KickedFromGuildHall
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : KickFromGuildHall
+  Parent   : Guilds
+  Path     : ReplicatedStorage.Shared.Guilds.KickFromGuildHall
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : PostieSent
+  Parent   : ReplicatedStorage
+  Path     : ReplicatedStorage.PostieSent
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PostieReceived
+  Parent   : ReplicatedStorage
+  Path     : ReplicatedStorage.PostieReceived
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : GameAnalyticsRemoteConfigs
+  Parent   : ReplicatedStorage
+  Path     : ReplicatedStorage.GameAnalyticsRemoteConfigs
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : GameAnalyticsError
+  Parent   : ReplicatedStorage
+  Path     : ReplicatedStorage.GameAnalyticsError
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PVPAreaNotify
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.PVPAreaNotify
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : BoughtStarterPack
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.BoughtStarterPack
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : IsDifficultyAvailable
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.IsDifficultyAvailable
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : Analytic
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.Analytic
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : AuraShopClosed
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.AuraShopClosed
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : CashShopClosed
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.CashShopClosed
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : FirstTimeLookAuraChest
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.FirstTimeLookAuraChest
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : RequestPathfinding
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.RequestPathfinding
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : FirstTimeLookMerch
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.FirstTimeLookMerch
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : ToggleNightwishMusic
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.ToggleNightwishMusic
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetRandomNightwishSong
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.GetRandomNightwishSong
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : ExploiterWarning
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.ExploiterWarning
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetAppearanceOption
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.SetAppearanceOption
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : BoughtGamepass
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.BoughtGamepass
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : TriggerMainMenuStep
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.TriggerMainMenuStep
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetMounted
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.SetMounted
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : InitialInputType
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.InitialInputType
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : PlaySolo
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.PlaySolo
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Matchmade
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.Matchmade
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetKeys
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.GetKeys
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : CombatHit
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.CombatHit
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : Ready
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.Ready
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetSheathed
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.SetSheathed
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetAppearanceOptions
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.GetAppearanceOptions
+  Type     : Function
+
+
+[ RemoteFunction ] :
+  Name     : GetItem
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.GetItem
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : PlayerData
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.PlayerData
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : GetPlayerData
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.GetPlayerData
+  Type     : Function
+
+
+[ RemoteEvent ] :
+  Name     : ToggleFreecam
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.ToggleFreecam
+  Type     : Event
+
+
+[ RemoteEvent ] :
+  Name     : SetReplicationFocus
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.SetReplicationFocus
+  Type     : Event
+
+
+[ RemoteFunction ] :
+  Name     : Medal
+  Parent   : Remotes
+  Path     : ReplicatedStorage.Remotes.Medal
+  Type     : Function
