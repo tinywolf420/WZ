@@ -1,3 +1,6 @@
+getgenv().autoMob = false
+getgenv().autoMobDetect = 0.001
+
 local AutoMob = {}
 
 local Players = game:GetService("Players")
